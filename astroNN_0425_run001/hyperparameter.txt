@@ -1,0 +1,19 @@
+Model: Convolutional Neural Network 
+Model Type: CNN 
+astroNN identifier: Galaxy10CNN 
+Python Version: 3.9.19 (main, Mar 21 2024, 17:11:28) 
+[GCC 11.2.0] 
+astroNN Version: 1.2.dev0 
+Keras Version: 2.12.0 
+Tensorflow Version: 2.12.1 
+Folder Name: astroNN_0425_run001 
+Batch size: 64 
+Optimizer: Adam 
+Maximum Epochs: 30 
+Learning Rate: 0.005 
+Validation Size: 0.1 
+Input Shape: {'input': (69, 69, 3)} 
+Label Shape: {'output': 10} 
+Number of Training Data: 17646 
+Number of Validation Data: 1960 
+Dropout Rate: 0.1 

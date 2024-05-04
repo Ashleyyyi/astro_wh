@@ -1,0 +1,82 @@
+{
+    "activation": "relu",
+    "batch_size": 64,
+    "dropout_rate": 0.1,
+    "filterlen": [
+        3,
+        3
+    ],
+    "filternum": [
+        8,
+        16
+    ],
+    "hidden": [
+        256,
+        128
+    ],
+    "id": "Galaxy10CNN",
+    "input": {
+        "input": [
+            69,
+            69,
+            3
+        ]
+    },
+    "input_mean": {
+        "input": [
+            0.0
+        ]
+    },
+    "input_names": [
+        "input"
+    ],
+    "input_norm_mode": {
+        "input": "255"
+    },
+    "input_std": {
+        "input": [
+            255.0
+        ]
+    },
+    "l1": null,
+    "l2": 0.0001,
+    "labels": {
+        "output": 10
+    },
+    "labels_mean": {
+        "output": [
+            0.0
+        ]
+    },
+    "labels_norm_mode": {
+        "output": "0"
+    },
+    "labels_std": {
+        "output": [
+            1.0
+        ]
+    },
+    "last_layer_activation": "softmax",
+    "maxnorm": null,
+    "output_names": [
+        "output"
+    ],
+    "pool_length": [
+        4,
+        4
+    ],
+    "targetname": [
+        "Disturbed",
+        "Merging",
+        "Round Smooth",
+        "Smooth, Cigar shaped",
+        "Cigar Shaped Smooth",
+        "Barred Spiral",
+        "Unbarred Tight Spiral",
+        "Unbarred Loose Spiral",
+        "Edge-on without Bulge",
+        "Edge-on with Bulge"
+    ],
+    "task": "classification",
+    "valsize": 0.1
+}
